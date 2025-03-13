@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: rgb(245, 203, 0);
+}
+
+h2{
+    font-size: 60px;
+}
+
+.primero{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 50px solid white;
+    padding-bottom: 250px;
+}
+
+.section2{
+    display: flex;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1300px;
+    box-shadow: 10px 10px 30px 0px rgb(122, 123, 123);
+    height: 400px;
+}
+
+.happi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.feliz{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    gap: 100px;
+}
+
+
+.section3{
+    padding-top: 250px;
+}
+
+
+
+h3{
+    color: rgb(245, 203, 0);
+    font-size: 45px;
+}
+
+#button1{
+    background-color: rgb(245, 203, 0);
+    border: 0;
+    padding: 5px 10px;
+
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.imagen{
+    max-width: 400px;
+    float: left;
+    margin-right: 100px;
+}
+
+p{
+    padding: 20px;
+    text-align: justify;
+}

@@ -9,14 +9,23 @@ body{
 
 h2{
     font-size: 80px;
+    font-family:'Anton', sans-serif;
 }
 
+.logo{
+    margin-left: 50px;
+    width: 90px;
+}
+
+.primero p{
+    font-size: 20px;
+}
 .primero{
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
     padding: 100px;
-    padding-bottom: 500px;
+    padding-bottom: 370px;
 }
 
 .section2{
@@ -25,10 +34,20 @@ h2{
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 80%;
     box-shadow: 10px 10px 30px 0px rgb(122, 123, 123);
-    height: 400px;
+    height: 500px;
 }
+
+.section3{
+    padding-top: 450px;
+    padding-bottom: 700px;
+}
+
+.section4{
+    background-color: white;
+}
+
 
 .happi{
     display: flex;
@@ -39,38 +58,72 @@ h2{
     margin-left: 80px;
 }
 
+.happi2{
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* text-align: justify; */
+    /* justify-content: center; */
+    /* margin-left: 80px; */
+    /* flex-direction: row; */
+}
+
 .feliz{
     display: flex;
     align-items: center;
     margin-left: 350px;
     gap: 100px;
+    
+}
+
+.grande{
+    height: 280px;
+}
+
+.grande2{
+    height: 280px;
+}
+
+.bot3{
+    background-color: black;
+    border: 0;
+    padding: 10px, 20px;
 }
 
 
-.section3{
-    padding-top: 250px;
-}
 
+
+.img2{
+    float: right;
+    margin-right: 100px;
+    font-size: 10px;
+}
 
 
 h3{
     color: rgb(245, 203, 0);
-    font-size: 45px;
+    font-size: 55px;
+    font-family:'Anton', sans-serif;
 }
 
 #button1{
     background-color: rgb(245, 203, 0);
     border: 0;
-    padding: 5px 10px;
+    padding: 10px 20px;
 
+}
+
+.section2 p{
+    font-size: 25px;
 }
 
 a{
     display: flex;
     text-decoration: none;
     color: black;
-    margin: 0px 10px;
+    margin: 0px 20px;
     font-size: 25px;
+    font-family:'Anton', sans-serif;
 }
 
 
@@ -96,3 +149,5 @@ p{
     padding: 20px;
     text-align: justify;
 }
+
+
